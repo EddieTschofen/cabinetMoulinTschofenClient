@@ -1,0 +1,10 @@
+<br/>
+<h4>Nouvel Infirmier</h4>
+<p *ngIf="errorMessage != ''">{{this.errorMessage}}</p>
+id : <input type="text" value="" (change)="changeModifiedInfo($event)" name="id"><br/>
+nom : <input type="text" value="" (change)="changeModifiedInfo($event)" name="nom"><br/>
+prenom : <input type="text" value="" (change)="changeModifiedInfo($event)" name="prenom"><br/>
+adresse : <input type="text" value="" (change)="changeModifiedInfo($event)" name="adresse"><br/>
+
+<button (click)="addNurse()">Ajouter infirmier</button>
+<br/>

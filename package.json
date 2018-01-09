@@ -1,0 +1,15 @@
+{
+  "name": "cabinetclient",
+  "version": "1.0.0",
+  "description": "angular cabinet client project",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^1.6.1"
+  },
+  "scripts": {
+    "test": "-t"
+  },
+  "author": "A.Moulin & E.Tschofen",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+ "/getDataCabinet": {
+   "target": "http://localhost:8080",
+   "secure": false
+ },
+  "/nurse/*": {
+    "target": "http://localhost:8080",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/patient/*": {
+    "target": "http://localhost:8080",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+ "/affectation": {
+   "target": "http://localhost:8080",
+   "secure": false
+ }
+}
+
